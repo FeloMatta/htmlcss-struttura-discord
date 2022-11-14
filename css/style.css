@@ -5,6 +5,38 @@
     box-sizing: border-box;
 }
 /* REGOLE GENERALI */
+.container-flex1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.container1{
+    background-color: #add8e6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container2{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    border: dashed
+}
+
+.container3{
+    border-left: dashed;
+    border-right: dashed;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 .container-flex{
     display: flex;
     justify-content: center;
@@ -35,8 +67,8 @@ aside{
 
 /* DEBUG */
 .debug header{
-    height: 150px;
-    background-color: goldenrod;
+    height: 50px;
+    
 }
 
 .debug footer{
