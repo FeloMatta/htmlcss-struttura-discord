@@ -4,9 +4,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* REGOLE GENERALI */
+.container-flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
 
+/* MAIN */
+main{
+    height: 400px;
+    background-color: #1e90ff;
+}
 
+/* ASIDE */
+aside{
+    height: 400px;
+    background-color: #ffc0cb;
+}
 
+/* prima parte*/
+.primo{
+    width: 60%;
+    background-color: #ee82ee;
+}
+
+.secondo main{
+    width: 20%;
+    background-color: #1e90ff;
+}
 
 
 
@@ -22,6 +48,23 @@
 
 
 /* DEBUG */
-.debug{
+.debug header{
+    height: 150px;
+    background-color: goldenrod;
+}
+
+.debug footer{
+    height: 150px;
+    background-color: rgb(18, 219, 192);
+}
+
+.debug main{
+    height: 400px;
+    background-color: #1e90ff;
     
 }
+
+.debug aside{
+    height: 400px;
+    background-color: #ffc0cb;
+} 
