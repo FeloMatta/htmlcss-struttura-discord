@@ -8,30 +8,16 @@
 .container-flex{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
 }
 
 /* MAIN */
 main{
-    height: 400px;
-    background-color: #1e90ff;
+    width: 40%;
 }
 
 /* ASIDE */
 aside{
-    height: 400px;
-    background-color: #ffc0cb;
-}
-
-/* prima parte*/
-.primo{
-    width: 60%;
-    background-color: #ee82ee;
-}
-
-.secondo main{
     width: 20%;
-    background-color: #1e90ff;
 }
 
 
